@@ -1,0 +1,158 @@
+
+
+@media only screen and (max-width: 1200px)
+{
+    .main-text{
+            width:100%;
+        padding: 0 2%;
+ }
+    .row{padding:0 2%; }
+}
+/*768 to 1023*/
+@media only screen and (max-width: 1023px)
+{
+    body{font-size: 18px;    }
+    section{padding: 60px 0;}
+    .section-para{
+                    width:80%;
+                    margin-left:10%;
+        margin-right: 10%;
+                 }
+    
+    .steps-box{
+       margin-top:10px;
+    }
+    .steps-box:last-child{
+                    margin-top:50px;
+    }
+    .app-screen{
+    width:50%;
+}
+    
+    .icon-small{
+    width:17px;
+    
+   margin-right: 5px;
+}
+    
+    .city-features{font-size: 85%;}
+    
+    .pricing-box{ width:100%;
+        margin-left:0;
+    }
+    
+    .plan-pricing{
+        font-size:250%;
+    }
+    
+    .meal{
+        font-size: 92%;
+    }
+    
+    .pricing-box li{
+        font-size:92%;
+    }
+    
+    
+    
+    .contact-links ,
+    .social-links li{
+        float:none;
+        text-align:center;
+    
+}
+    .contact-links {
+        margin-bottom: 10px;
+    }
+}
+/*481 to 767*/
+@media only screen and (max-width: 767px)
+{   body{
+    font-size: 16px;
+    }
+    
+    section{
+        padding:30px 0;
+    }
+    .main-nav{
+        display:none;
+    }
+    .logo{
+   
+    height:80px;
+    width:auto;
+    margin-top: 10px;
+}
+    .row{
+        padding:0 2%;
+    }
+    .pricing-box li,
+    .meal,
+    .plan-pricing{
+        text-align:left;
+    }
+    .col{
+        width:100%;
+        
+        margin-bottom:4%;
+    }
+    .steps-box:first-child{
+   
+    padding-right:3%;
+    margin-top:30px;
+    text-align: center;
+}
+    .app-screen{width:30%}
+    
+    
+    .main-form{
+        width:80%;
+        margin-left:10%;
+        text-align:left;
+        
+    }
+    .worksteps div{
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    padding: 4px;
+    font-size: 1.2em;
+        margin-top:-1.5%;
+    }
+    .steps-box:last-child{
+        margin-top:15px;
+        padding:5% 0;
+    }
+    .works-steps:last-of-type {
+		margin-bottom: 30px;
+	}
+    
+    .main-form label{
+        margin-left:2%;
+    }
+    
+    .contact-links li,
+    .social-links {
+        float:none;
+        text-align:center;
+    }
+    .social-links{
+        margin-bottom: 10px;
+    }
+    footer p{
+        margin-top: 0;
+    }
+    
+}
+
+
+/*0 to 480*/
+@media only screen and (max-width: 480px)
+{
+    section {
+		padding: 25px 0;
+	}
+	.section-form {
+		width: 100%;
+	}
+}
